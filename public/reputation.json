@@ -1,0 +1,25 @@
+[
+    {
+        "picture": "https://i.ibb.co/kJtWng0/adult-blur-blurred-background-687824.png",
+        "serviceName" : "Fast Delivery ",
+        "price": 6.99,
+        "description" : " Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.",
+        "id":1
+    },
+    {
+        "picture": "https://i.ibb.co/gF70FmD/architecture-building-city-2047397.png",
+        "serviceName" : "Home Delivery ",
+        "price": 9.99,
+        "description" : " This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.",
+        "id":2
+    },
+    {
+        "picture": "https://i.ibb.co/qRnfh1p/chef-cook-food-33614.png",
+        "serviceName" : "A Good Auto Responder",
+        "price": "8.99",
+        "description" : "We always try our best not to forget to write review, especially when we are satisfied from the service and food in a small family owned restaurant, but sometimes can be a pressure.",
+        "id":3
+    }
+]
+
+

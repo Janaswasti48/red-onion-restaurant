@@ -1,0 +1,26 @@
+
+
+.container2 {
+    display: flex;
+    width: 1350px;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+.title-section {
+    text-align: start;
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+
+h1.service-title {
+    color: #00000091;
+    margin: 15px 15px;
+    font-size: 34px;
+}
+
+p.service-description {
+    width: 415px;
+    font-size: 20px;
+    color: #0000008a;
+    margin: 0 20px;
+}

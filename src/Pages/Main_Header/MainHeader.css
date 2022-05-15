@@ -1,0 +1,31 @@
+.logo img {
+    width: 170px;
+    cursor: pointer;
+}
+
+nav.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 600;
+    color: #0c0c0d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar a:hover {
+    color: #e51a4b;
+}
+.navbar span {
+    font-size: 23px;
+    margin: 0px 20px;
+}
+.navbar span:hover {
+    color: #e51a4b;
+    cursor: pointer;
+}

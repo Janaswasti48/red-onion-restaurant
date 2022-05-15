@@ -1,0 +1,44 @@
+.single-container {
+    margin: 30px 0px;
+}
+.single-container img {
+    width: 50%;
+}
+
+.single-container h4 {
+    font-size: 23px;
+    color: #0c0c0d;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+.single-container p {
+    font-size: 20px;
+    color: #242323bd;
+    margin: 14px 0px;
+}
+.single-container h6 {
+    font-size: 20px;
+    color: #5d8b00;
+    margin: 20px 0px;
+}
+
+.check-out-btn {
+    margin: 25px 0px;
+}
+.check-out-btn button {
+    height: 50px;
+    width: 240px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: white;
+    border: 2px solid #12101094;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.check-out-btn button:hover {
+    background: #464242d1;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,15 @@
+.header a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #0c0c0d;
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
+nav.header {
+    margin: 40px 0;
+}
+nav.header a:hover {
+    color: #e51a4b;
+}
