@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./SearchCover.css"
 
 const SearchCover = () => {
-    
+    const [searchText,setSearchTest] = useState([]);
+    const searchFood = (e) =>{
+        setSearchTest(e.target.value)
+    }
     return (
         <div className='cover-container'>
             <div className='background-image'>
@@ -12,7 +15,7 @@ const SearchCover = () => {
                 </div>
                 <form className='search_bar'>
                     <input type="text" name="search"/>
-                    <button type="Search">Search</button>
+                    <button onChange={searchFood} type="Search">Search</button>
                 </form>
             </div>
         </div>

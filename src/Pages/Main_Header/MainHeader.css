@@ -9,7 +9,7 @@ nav.navbar-container {
     justify-content: space-between;
     margin: 30px;
 }
-.navbar a {
+.link {
     font-size: 20px;
     text-decoration: none;
     margin: 0px 20px;
@@ -17,6 +17,15 @@ nav.navbar-container {
     color: #0c0c0d;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.active-link{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 600;
+    color: #e51a4b;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
 }
 .navbar a:hover {
     color: #e51a4b;

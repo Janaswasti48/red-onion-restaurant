@@ -12,6 +12,7 @@ import Dinners from './Pages/Home/Dinner/Dinners';
 import Login from './Pages/Shared/Login/Login';
 import SignUp from './Pages/Shared/SignUp/SignUp';
 import Services from './Pages/Home/Services/Services';
+import SearchCovers from './Pages/Search_cover/SearchCovers';
 
 
 function App() {
@@ -27,8 +28,10 @@ function App() {
         <Route path='/dinner' element={<Dinner></Dinner>}></Route>
         <Route path='/dinners' element={<Dinners></Dinners>}></Route>
         <Route path='/login' element = {<Login></Login> }></Route>
-        <Route path='/login' element = {<SignUp></SignUp>}></Route>
+        <Route path='/signup' element = {<SignUp></SignUp>}></Route>
         <Route path='/login' element = {<Services></Services>}></Route>
+        <Route path='/searchcovers' element = {<SearchCovers></SearchCovers>}></Route>
+        
 
         
       </Routes>

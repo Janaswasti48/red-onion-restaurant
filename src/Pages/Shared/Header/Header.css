@@ -1,9 +1,18 @@
-.header a {
+.link {
     font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 2px;
     text-decoration: none;
     color: #0c0c0d;
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
+.active-link{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #e51a4b;
     text-transform: uppercase;
     margin: 0px 20px;
 }

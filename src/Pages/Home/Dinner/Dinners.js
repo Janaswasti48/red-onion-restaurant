@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import MainHeader from '../../Main_Header/MainHeader';
 import Header from '../../Shared/Header/Header';
 import Dinner from './Dinner';
 import "./Dinners.css"
@@ -12,6 +13,7 @@ const Dinners = () => {
     }, [])
     return (
         <div>
+            <MainHeader></MainHeader>
             <Header></Header>
             <div className='container'>
                 {
